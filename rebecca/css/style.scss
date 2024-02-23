@@ -1,0 +1,285 @@
+@import "emojis";
+
+$dancing: 'Dancing Script', cursive;
+$archivo: 'Archivo Narrow', sans-serif;
+$segoe: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$shadow1: 2px 2px 4px rgba(0, 0, 0, 0.5);
+$shadow2: 0px 0px 10px rgba(0, 0, 0, 0.5);
+$wave: 5s infinite linear;
+$trlate50: translateX(-50%);
+$black: #000000;
+$orangeStrong: #d85b00;
+$orangeBright: #d77809;
+$orangeMid: #e08918;
+$orangeLight: #dab05e;
+$greenDark: #1d3c10;
+$greenLight: #5fb438;
+$greyDark: #2c2c2c;
+$greyStrong: #343434;
+$greyLight: #9a9a9a;
+$greySoft: #e9e9e9;
+$blueDeep: #02142c;
+$blueStrong: #14283e;
+$blueDark: #14345e;
+$blueAsh:#284871;
+$blueBright: #095fcf;
+$blueSea: #03174f;
+$blueDay: #6b9fe1;
+$violetDark: #19142c;
+$plumDark: #461652;
+$blueMid: #6d8dcb;
+$blueLight: #9ccbfc;
+$peach: #f8e4cc;
+$plum: #722457;
+$lightLightBlue: #b4c1e4;
+$yellowDark: #c0af26;
+$fuschiaStrong: #c0265c;
+$flowerSoft: #ca97cf;
+$borderHuge: 12px solid;
+$borderStrong: 2px solid;
+$borderLight: 1px solid;
+$borderVeryLight: 1px dashed;
+$linearblue: linear-gradient(to right, $violetDark, $blueStrong); 
+$linearGrey: linear-gradient(to right, #d2d2d2, #4b4b4b); 
+
+body {
+    margin: 0;
+    background-color: #1f1f1f;
+    font-family: $segoe;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+#error-msg {
+    display: none;
+}
+
+#container {
+    margin: 0 auto;
+
+    #header {
+        width: 100vw;
+        justify-content: center;
+    }
+    
+    #colorbar {
+        top: 0px;
+        left: 0;
+        height: 30vw; 
+        width: 100vw;
+        border-bottom: $borderLight #000000;
+        background: $linearblue;
+        opacity: 0.9;
+
+        img {
+            position: absolute;
+            padding: 0px;
+            margin-top: 0px;
+            height: 30vw;
+            border-radius: 0% 37% 0% 37%;
+            z-index: 1; 
+            opacity: 0.9;
+        }
+
+        .over {
+            z-index: 2; 
+        }
+
+        h1 {
+            margin: 0 auto;
+            font-family: $dancing;
+            font-size: 8em;
+            color: #ffffff;
+            text-shadow: $shadow1;
+            animation: headerWave $wave;
+            position: relative;
+            padding-top: 6vw;
+            padding-left: 26%;
+            text-align: center;
+            z-index: 2;
+        }
+
+        ul.navi {
+            list-style-type: none;
+            font-family: $archivo;
+            font-size: 5em;
+            color: #ffffff;
+            animation: headerWave $wave;
+            position: relative;
+
+            padding-left: 26%;
+            text-align: center; 
+            top: 10px;
+            z-index: 3;
+        }
+        
+        ul.navi li {
+            display: inline;
+            margin-right: 70px; 
+        }
+        
+        ul a {
+            text-decoration: none;
+            color: #ffffff;
+            text-shadow: $shadow1;
+        }
+        
+        ul a:hover {
+            text-decoration: none;
+            color: #2f6ff7;
+        }
+
+    }
+    
+    #content {
+
+        .page {
+            padding-left: 50px;
+            padding-bottom: 20px;
+            padding-right: 20px;
+            border-bottom: $borderLight #000000;
+
+            h3 {
+                margin: 0;
+                font-family: $archivo;
+                font-size: 5.8em;
+                color: $lightLightBlue;
+                padding-top: 1vw;
+            }
+
+            h3.bright {
+                color: $orangeBright;
+            }
+
+            h3.soft {
+                color: $greyLight;
+            }
+
+            a {
+                text-decoration: none;
+                color: $blueDeep;
+            }
+            
+            a:hover {
+                color: $plum;
+            }
+
+            a.tab {
+                text-decoration: none;
+                color: $orangeBright;
+            }
+            
+            a.tab:hover {
+                color: $blueLight;
+            }
+
+            
+            h2 {
+                font-family: $archivo;
+                font-size: 7em;
+                color: $plum;
+            }
+
+            h4 {
+                font-family: $archivo;
+                font-size: 2em;
+                color: $blueDay;
+            }
+
+            h4.soft {
+                color: $flowerSoft;
+            }
+
+        }
+    }
+
+    #footer {
+        text-align: center; 
+        top: 10px;
+
+        a {
+            text-decoration: none;
+            color: $greyLight;
+        }
+        
+        a:hover {
+            color: $orangeBright;
+        }
+
+    }
+}
+
+.bg1 {
+    background-color: $greyStrong;
+}
+
+.bg2 {
+    background-color: $blueStrong;
+}
+
+.bg3 {
+    background: linear-gradient(25deg, #e5e5e5, #d2d2d2, #4b4b4b, #585858); 
+    color: #000000;
+}
+
+img.tiny {
+    width: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+@keyframes headerWave {
+    0% {
+        color: $lightLightBlue;
+    }
+    37% {
+        color: #e0a2e2;
+    }
+    100% {
+        color: $lightLightBlue;
+    }
+}
+
+span {
+    color: $blueStrong;
+}
+
+span:hover {
+    color: $blueLight;
+}
+
+span.contact {
+    padding-left: 24px;
+}
+
+.shadow {
+    box-shadow: $shadow2;
+    overflow: hidden;
+}
+
+table {
+    width: 1200px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px; 
+    overflow: hidden; 
+    background-color: #2b3643;
+}
+
+th, td {
+    border: 3px solid #01040b;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #01040b;
+}
+
+tr:hover {
+    background-color: #084484;
+}
+
+@import "media-query";

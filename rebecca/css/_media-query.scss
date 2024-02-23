@@ -1,0 +1,305 @@
+@media only screen and (max-width: 1980px) {
+
+    #container {
+        width: 100vw;
+        //max-width: 1000px;
+
+        #colorbar {
+            
+            h1 {
+                font-size: 7em;
+                padding-top: 5vw;
+            }
+
+            ul.navi {
+                font-size: 4em;
+            }
+        }
+
+        #content {
+
+            .page {
+    
+                h3 {
+                    font-size: 5em;
+                }
+            }
+        }
+    }
+
+    table {
+        width: 90vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 1700px) {
+
+    #container {
+        width: 100vw;
+        //max-width: 1000px;
+
+        #colorbar {
+            
+            h1 {
+                font-size: 6em;
+                padding-top: 4vw;
+            }
+
+            ul.navi {
+                font-size: 3.5em;
+            }
+
+            ul.navi li {
+                margin-right: 50px; 
+            }
+        }
+
+        #content {
+
+            .page {
+    
+                h3 {
+                    font-size: 4em;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1480px) {
+
+    #container {
+        width: 100vw;
+        //max-width: 1000px;
+
+        #colorbar {
+            
+            h1 {
+                font-size: 5em;
+                padding-top: 3vw;
+            }
+
+            ul.navi {
+                font-size: 3em;
+            }
+
+            ul.navi li {
+                margin-right: 40px; 
+            }
+        }
+
+        #content {
+
+            .page {
+    
+                h3 {
+                    font-size: 3em;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1240px) {
+
+    #container {
+        width: 100vw;
+        //max-width: 1000px;
+
+        #colorbar {
+            
+            h1 {
+                font-size: 4.2em;
+            }
+
+            ul.navi {
+                font-size: 2.8em;
+            }
+
+            ul.navi li {
+                margin-right: 30px; 
+            }
+
+        }
+
+        #content {
+
+            .page {
+    
+                h3 {
+                    font-size: 2.7em;
+                }
+
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 1030px) {
+
+    #container {
+        width: 100vw;
+        //max-width: 1000px;
+
+        #colorbar {
+            
+            h1 {
+                font-size: 3.4em;
+            }
+
+            ul.navi {
+                font-size: 2.2em;
+            }
+
+            ul.navi li {
+                margin-right: 20px; 
+            }
+        }
+
+        #content {
+
+            .page {
+    
+                h3 {
+                    font-size: 2.2em;
+                    padding-top: 2vw;
+                }
+
+                h4 {
+                    font-size: 1.9em;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    body {
+        font-size: 1.1em;
+    }
+
+    #container {
+        width: 100vw;
+        //max-width: 1000px;
+
+        #colorbar {
+            
+            h1 {
+                font-size: 2.5em;
+            }
+
+            ul.navi {
+                font-size: 1.6em;
+            }
+
+            ul.navi li {
+                margin-right: 15px; 
+            }
+        }
+
+        #content {
+
+            .page {
+    
+                h3 {
+                    font-size: 1.8em;
+                    padding-top: 3vw;
+                }
+
+                h4 {
+                    font-size: 1.6em;
+                }
+            }
+        }
+    }
+
+    table {
+        width: 85vw;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    #container {
+        width: 100vw;
+        //max-width: 1000px;
+
+        #colorbar {
+            
+            h1 {
+                font-size: 2em;
+            }
+
+            ul.navi {
+                font-size: 1.4em;
+            }
+
+            ul.navi li {
+                margin-right: 10px; 
+            }
+
+        }
+
+        #content {
+
+            .page {
+    
+                h3 {
+                    font-size: 1.5em;
+                    padding-top: 4vw;
+                }
+
+                h4 {
+                    font-size: 1.4em;
+                }
+
+            }
+        }
+
+    }
+}
+
+
+
+@media only screen and (max-width: 460px) {
+
+    body {
+        margin-top: 25px;
+        background-color: #1f1f1f;
+        text-align: center;
+    }
+    #error-msg{
+        display: block;
+    }
+
+    #header {
+        display: none;
+    }
+
+    #header img {
+        display: none;
+    }
+
+    #container {
+        display: none;
+    }
+
+    #content {
+        display: none;
+    }
+
+    #colorbar {
+        display: none;
+    }
+
+}

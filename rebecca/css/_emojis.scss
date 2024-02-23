@@ -1,0 +1,17 @@
+/* Unicode-hex v 15.1 */
+
+$emoji-font-family: 'Noto Color Emoji', sans-serif;
+$emoji-font-size: 18px;
+
+@mixin emoji-style($content) {
+    &::before {
+      font-family: $emoji-font-family;
+      font-size: $emoji-font-size;
+      content: $content;
+    }
+  }
+
+  // orange heart
+.custom-emoji-1 {
+  @include emoji-style("\1F9E1"); 
+}
