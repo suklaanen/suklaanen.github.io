@@ -46,11 +46,14 @@ body {
     margin: 0;
     background-color: #1f1f1f;
     font-family: $segoe;
-    font-size: 1.2em;
     color: #ffffff;
 }
 
 #error-msg {
+    display: none;
+}
+
+#error-table {
     display: none;
 }
 
@@ -65,7 +68,7 @@ body {
     #colorbar {
         top: 0px;
         left: 0;
-        height: 30vw; 
+        height: 26vw; 
         width: 100vw;
         border-bottom: $borderLight #000000;
         background: $linearblue;
@@ -75,7 +78,7 @@ body {
             position: absolute;
             padding: 0px;
             margin-top: 0px;
-            height: 30vw;
+            height: 26vw;
             border-radius: 0% 37% 0% 37%;
             z-index: 1; 
             opacity: 0.9;
@@ -88,13 +91,13 @@ body {
         h1 {
             margin: 0 auto;
             font-family: $dancing;
-            font-size: 8em;
+            font-size: 9.2em;
             color: #ffffff;
             text-shadow: $shadow1;
             animation: headerWave $wave;
             position: relative;
-            padding-top: 6vw;
-            padding-left: 26%;
+            padding-top: 3.4vw;
+            padding-left: 18%;
             text-align: center;
             z-index: 2;
         }
@@ -102,14 +105,13 @@ body {
         ul.navi {
             list-style-type: none;
             font-family: $archivo;
-            font-size: 5em;
+            font-size: 5.2em;
             color: #ffffff;
             animation: headerWave $wave;
             position: relative;
-
-            padding-left: 26%;
+            padding-left: 18%;
             text-align: center; 
-            top: 10px;
+            top: 2px;
             z-index: 3;
         }
         
@@ -139,10 +141,14 @@ body {
             padding-right: 20px;
             border-bottom: $borderLight #000000;
 
+            p, th, td {
+                font-size: 1.3em;
+            }
+
             h3 {
                 margin: 0;
                 font-family: $archivo;
-                font-size: 5.8em;
+                font-size: 5.2em;
                 color: $lightLightBlue;
                 padding-top: 1vw;
             }
@@ -189,17 +195,19 @@ body {
             h4.soft {
                 color: $flowerSoft;
             }
-
         }
     }
 
     #footer {
+
         text-align: center; 
+        font-size: 1.1em;
         top: 10px;
 
         a {
             text-decoration: none;
             color: $greyLight;
+            font-size: 1.1em;
         }
         
         a:hover {
@@ -252,6 +260,10 @@ span:hover {
 
 span.contact {
     padding-left: 24px;
+}
+
+span.alert {
+    color: $orangeStrong;
 }
 
 .shadow {
