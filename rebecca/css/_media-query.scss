@@ -1,84 +1,45 @@
-@media only screen and (max-width: 1980px) {
-
-    #container {
-        width: 100vw;
-
-        #colorbar {
-            height: 480px; 
-
-            img {
-                margin-top: 0px;
-                height: 480px;
-            }
-            
-            h1 {
-                font-size: 7.4em;
-                padding-top: 78px;
-                padding-left: 23%;
-            }
-
-            ul.navi {
-                font-size: 4em;
-                padding-top: 0px;
-                padding-left: 23%;
-            }
-        }
-
-        #content {
-
-            .page {
-    
-                h3 {
-                    font-size: 5em;
-                }
-            }
-        }
-    }
-
-    table {
-        width: 90vw;
-    }
-}
-
-
-
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1680px) {
 
     #container {
 
         #colorbar {
-            height: 430px; 
-
-            img {
-                margin-top: 0px;
-                height: 430px;
-            }
-
             
             h1 {
-                font-size: 6.2em;
-                padding-top: 70px;
-                padding-left: 19%;
-
+                font-size: 4.8em;
+                padding-right: 30px;
             }
 
             ul.navi {
-                font-size: 3.5em;
-                padding-top: 0px;
-                padding-left: 19%;
+                font-size: 3.4em;
             }
 
             ul.navi li {
-                margin-right: 50px; 
+                padding-right: 50px; 
             }
+
         }
 
         #content {
 
+            .pImg {
+    
+                span#quote {
+                    font-size: 2.3em;
+                }
+            }
+
             .page {
+
+                p, td {
+                    font-size: 1.2em;
+                }
     
                 h3 {
-                    font-size: 4em;
+                    font-size: 3em;
+                }
+
+                h4 {
+                    font-size: 1.8em;
                 }
 
             }
@@ -89,248 +50,52 @@
         }
 
     }
-}
-
-
-@media only screen and (max-width: 1480px) {
-
-    #container {
-
-        #colorbar {
-            height: 370px; 
-
-            img {
-                margin-top: 0px;
-                height: 370px;
-            }
-
             
-            h1 {
-                font-size: 5em;
-                padding-top: 65px;
-                padding-left: 19%;
-            }
-
-            ul.navi {
-                font-size: 3em;
-                padding-top: 0px;
-                padding-left: 19%;
-            }
-
-            ul.navi li {
-                margin-right: 40px; 
-            }
-        }
-
-        #content {
-
-            .page {
-    
-                h3 {
-                    font-size: 3em;
-                }
-            }
-        }
-    }
-
 }
 
-@media only screen and (max-width: 1240px) {
-
-    #container {
-
-        #colorbar {
-            height: 320px; 
-
-            img {
-                margin-top: 0px;
-                height: 320px;
-            }
-            
-            h1 {
-                font-size: 4.7em;
-                padding-top: 60px;
-                padding-left: 20%;
-            }
-
-            ul.navi {
-                font-size: 2.5em;
-                padding-top: 0px;
-                padding-left: 20%;
-            }
-
-            ul.navi li {
-                margin-right: 30px; 
-            }
-
-        }
-
-        #content {
-
-            .page {
-    
-                h3 {
-                    font-size: 2.7em;
-                }
-
-            }
-        }
-    }
-
-}
-
-
-@media only screen and (max-width: 1030px) {
-
-    #container {
-
-        #colorbar {
-            height: 260px; 
-
-            img {
-                margin-top: 0px;
-                height: 260px;
-            }
-
-            
-            h1 {
-                font-size: 3.6em;
-                padding-top: 48px;
-                padding-left: 20%;
-            }
-
-            ul.navi {
-                font-size: 2.1em;
-                padding-top: 0px;
-                padding-left: 20%;
-            }
-
-            ul.navi li {
-                margin-right: 20px; 
-            }
-        }
-
-        #content {
-
-            .page {
-    
-                h3 {
-                    font-size: 2.2em;
-                    padding-top: 2vw;
-                }
-
-                h4 {
-                    font-size: 1.9em;
-                }
-            }
-        }
-
-    }
-}
-
-@media only screen and (max-width: 800px) {
-
-    #container {
-
-        #colorbar {
-            height: 210px; 
-
-            img {
-                margin-top: 0px;
-                height: 210px;
-            }
-            
-            h1 {
-                font-size: 3em;
-                padding-top: 42px;
-                padding-left: 21%;
-            }
-
-            ul.navi {
-                font-size: 1.6em;
-                padding-top: 0px;
-                padding-left: 21%;
-            }
-
-            ul.navi li {
-                margin-right: 5px; 
-            }
-
-        }
-
-        #content {
-
-            .page {
-                padding-left: 35px;
-
-                p, th, td {
-                    font-size: 1em;
-                }
-    
-                h3 {
-                    font-size: 1.5em;
-                    padding-top: 15px;
-                }
-
-                h4 {
-                    font-size: 1.4em;
-                }
-
-            }
-        }
-
-    }
-
-    table {
-        width: 85vw;
-    }
-}
-
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 1260px) {
 
     #container {
 
         #colorbar {
             height: 190px; 
-
-            img {
-                margin-top: 0px;
-                height: 190px;
-            }
             
             h1 {
-                font-size: 2.3em;
-                padding-top: 44px;
-                padding-left: 15%;
+                font-size: 3.6em;
             }
 
             ul.navi {
-                font-size: 1.3em;
-                padding-top: 0px;
-                padding-left: 15%;
-            }
-
-            ul.navi li {
-                margin-right: 5px; 
+                font-size: 2em;
+                display: block;
             }
 
         }
 
         #content {
 
+            .pImg {
+    
+                span#quote {
+                    top: 28%; 
+                    left: 6%; 
+                    width: 50%;
+                    font-size: 2.1em;
+                }
+            }
+
             .page {
 
                 p, td {
-                    font-size: 0.9em;
+                    font-size: 1em;
                 }
     
                 h3 {
-                    font-size: 1.5em;
+                    font-size: 2em;
                     padding-top: 15px;
                 }
 
                 h4 {
-                    font-size: 1.4em;
+                    font-size: 1.2em;
                 }
 
             }
@@ -339,71 +104,68 @@
         #footer {
             font-size: 0.9em;
         }
-
     }
 }
 
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 720px) {
 
     #container {
-        width: 100vw;
 
         #colorbar {
-            height: 160px; 
-
-            img {
-                margin-top: 0px;
-                height: 160px;
-            }
+            height: 190px; 
             
             h1 {
-                font-size: 1.7em;
-                padding-top: 37px;
-                padding-left: 3%;
+                font-size: 2.6em;
+                padding-right: 5%;
+                padding-left: 10%;
             }
 
             ul.navi {
-                font-size: 1.3em;
-                padding-top: 0px;
-                padding-left: 3%;
-            }
-
-            ul.navi li {
-                margin-right: 5px; 
+                font-size: 1.8em;
             }
 
         }
 
         #content {
 
+            .pImg {
+
+                span#quote {
+                    top: 25%; 
+                    left: 3%; 
+                    width: 60%;
+                    font-size: 1.4em;
+                }
+            }
+
             .page {
                 padding-left: 25px;
 
-                p, th, td {
-                    font-size: 0.9em;
+                .box {
+                    padding-left: 15px;
+                }
+
+                p, td {
+                    font-size: 1em;
                 }
     
                 h3 {
-                    font-size: 1.5em;
+                    font-size: 2em;
                     padding-top: 15px;
                 }
 
                 h4 {
-                    font-size: 1.4em;
+                    font-size: 1.2em;
                 }
 
             }
         }
-    }
 
-    table {
-        display: none;
+        #footer {
+            font-size: 0.9em;
+        }
     }
-
-    #error-table {
-        display: block;
-      }
 
 }
 
