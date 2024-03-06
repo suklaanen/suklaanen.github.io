@@ -136,6 +136,18 @@ body {
 #container #content .page h4.soft {
   color: #ca97cf;
 }
+#container #content .page h4.bright {
+  color: #9ccbfc;
+}
+#container #content .page .box {
+  padding-left: 20px;
+}
+#container #content .page .border-left {
+  border-left: 1px solid;
+}
+#container #content .page .cSoft {
+  border-color: #ca97cf;
+}
 #container #footer {
   text-align: center;
   font-size: 1.1em;
@@ -382,6 +394,9 @@ tr:hover {
   #container #colorbar ul.navi li {
     margin-right: 5px;
   }
+  #container #content .page {
+    padding-left: 35px;
+  }
   #container #content .page p, #container #content .page th, #container #content .page td {
     font-size: 1em;
   }
@@ -454,6 +469,9 @@ tr:hover {
   }
   #container #colorbar ul.navi li {
     margin-right: 5px;
+  }
+  #container #content .page {
+    padding-left: 25px;
   }
   #container #content .page p, #container #content .page th, #container #content .page td {
     font-size: 0.9em;

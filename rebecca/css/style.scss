@@ -195,6 +195,22 @@ body {
             h4.soft {
                 color: $flowerSoft;
             }
+
+            h4.bright {
+                color: $blueLight;
+            }
+
+            .box {
+                padding-left: 20px;
+            }
+
+            .border-left {
+                border-left: $borderLight;
+            }
+
+            .cSoft {
+                border-color: $flowerSoft;
+            }
         }
     }
 
