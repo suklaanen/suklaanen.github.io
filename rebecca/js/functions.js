@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
         "\" Jos haluu pärjätä, niin työstään pitää tykätä. \"",
         "\" Ei mikään turha lupaus. \"",
         "\" Tänään ja huomenna. \"",
+        "\" Tehdään tää hyvin. \"",
+        "\" Asiakkaan pitää saada se, mitä hän tarvitsee ja siinä voidaan auttaa. \"",
+        "\" Tuun sinne, missä tarvitaan. \"",
     ];
 
     var randomIndex = Math.floor(Math.random() * quotes.length);
