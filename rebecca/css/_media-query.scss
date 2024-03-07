@@ -133,8 +133,8 @@
 
                 span#quote {
                     top: 25%; 
-                    left: 3%; 
-                    width: 60%;
+                    left: 1%; 
+                    width: 55%;
                     font-size: 1.4em;
                 }
             }
@@ -146,8 +146,8 @@
                     padding-left: 15px;
                 }
 
-                p, td {
-                    font-size: 1em;
+                p, th, td {
+                    font-size: 0.9em;
                 }
     
                 h3 {
@@ -167,6 +167,17 @@
         }
     }
 
+}
+
+
+@media only screen and (max-width: 420px) {
+    table {
+        display: none;
+    }
+
+    #error-table {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 250px) {

@@ -126,12 +126,13 @@ body {
   z-index: 1;
 }
 #container #content .page {
+  margin: 0 auto;
+  margin-top: -3px;
   padding-left: 50px;
   padding-bottom: 20px;
   padding-right: 20px;
   border-bottom: 1px solid #000000;
   max-width: 1200px;
-  margin: 0 auto;
 }
 @media (max-width: 767px) {
   #container #content .page {
@@ -357,8 +358,8 @@ tr:hover {
   }
   #container #content .pImg span#quote {
     top: 25%;
-    left: 3%;
-    width: 60%;
+    left: 1%;
+    width: 55%;
     font-size: 1.4em;
   }
   #container #content .page {
@@ -367,8 +368,8 @@ tr:hover {
   #container #content .page .box {
     padding-left: 15px;
   }
-  #container #content .page p, #container #content .page td {
-    font-size: 1em;
+  #container #content .page p, #container #content .page th, #container #content .page td {
+    font-size: 0.9em;
   }
   #container #content .page h3 {
     font-size: 2em;
@@ -379,6 +380,14 @@ tr:hover {
   }
   #container #footer {
     font-size: 0.9em;
+  }
+}
+@media only screen and (max-width: 420px) {
+  table {
+    display: none;
+  }
+  #error-table {
+    display: block;
   }
 }
 @media only screen and (max-width: 250px) {
