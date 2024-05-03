@@ -1,4 +1,6 @@
 @import "emojis";
+@import url('https://fonts.googleapis.com/css?family=Arapey:400,400i|Montserrat:400,400i,700,700i|Parisienne');
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 $dancing: 'Dancing Script', cursive;
 $archivo: 'Archivo Narrow', sans-serif;
@@ -43,10 +45,12 @@ $linearblue: linear-gradient(to right, $violetDark, $blueStrong);
 $linearGrey: linear-gradient(to right, #d2d2d2, #4b4b4b); 
 
 body {
+    background-image: url("../img/bg1.png");
     margin: 0;
-    background-color: #1f1f1f;
-    font-family: $segoe;
-    color: #ffffff;
+    background-color: #efefef;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    color: #000000;
 }
 
 #error-msg {
@@ -65,7 +69,7 @@ body {
     }
 
     #colorbar {
-        height: 180px; 
+        height: 120px; 
         width: 100vw;
         border-bottom: $borderLight #000000;
         background: $linearblue;
@@ -76,11 +80,6 @@ body {
             margin: 0 auto;
             display: flex;
             max-width: 1600px;
-            align-items: center; 
-
-            @media (max-width: 1200px) {
-                max-width: 100%;
-                }
         }
 
         img {
@@ -99,37 +98,38 @@ body {
 
         h1 {
             margin: 0 auto;
-            padding-left: 10px;
-            padding-right: 80px;
+            padding-top: 0.35em;
+            padding-right: 1em;
             font-family: $dancing;
-            font-size: 5.2em;
+            font-size: 3.8em;
             color: #ffffff;
             text-shadow: $shadow1;
             animation: headerWave $wave;
             z-index: 2;
         }
 
-        ul.navi {
-            list-style-type: none;
+        .navi {
+            margin: 0 auto;
+            padding-top: 1.25em;
             display: flex;
             font-family: $archivo;
-            font-size: 3.8em;
+            font-size: 2em;
             color: #ffffff;
             animation: headerWave $wave;
             z-index: 3;
         }
         
-        ul.navi li {
-            padding-right: 70px; 
+        .navi a {
+            padding-right: 50px; 
         }
         
-        ul a {
+        .navi a {
             text-decoration: none;
             color: #ffffff;
             text-shadow: $shadow1;
         }
         
-        ul a:hover {
+        .navi a:hover {
             text-decoration: none;
             color: #2f6ff7;
         }
@@ -151,16 +151,16 @@ body {
     }
     
     #content {
-        //margin: 0 auto;
-        margin-top: 180px;
+        margin-top: 120px;
 
         .pImg {
+            
             margin: 0 auto;
             padding-left: 0px;
             max-width: 1270px;
             position: relative;
             z-index: 1; 
-            //max-height: 681px;
+            max-height: auto;
 
             .imgInside {
                 width: 100%;
@@ -179,30 +179,38 @@ body {
             }
         }
 
-        .page {
+        .page {   
             margin: 0 auto;
-            margin-top: -3px;
-            padding-left: 50px;
-            padding-bottom: 20px;
-            padding-right: 20px;
+            margin-top: 0px;
+            padding-left: 34px;
+            padding-bottom: 25px;
+            padding-right: 34px;
             border-bottom: $borderLight #000000;
             max-width: 1200px;
-
-            @media (max-width: 767px) {
-                max-width: 100%;
-                }
    
             p, th, td {
                 font-size: 1.3em;
             }
 
-            h3 {
+            /*h3 {
                 margin: 0;
                 font-family: $archivo;
                 font-size: 4.7em;
                 color: $lightLightBlue;
                 padding-top: 1vw;
-            }
+            }*/
+
+            h3 {
+                margin: 0;
+                color: #000000;
+                font-weight: normal;
+                font-family: 'Parisienne', cursive;
+                font-size: 3em;
+                text-align: left; 
+                padding-left: 0.2em;
+                padding-top: 1em;
+                text-shadow: 0px 1px 8px rgba(0,0,0, 0.1);
+              }
 
             h3.bright {
                 color: $orangeBright;
@@ -238,8 +246,10 @@ body {
             }
 
             h4 {
+                margin-top: 1.8em;
+                padding-left: 0.4em;
                 font-family: $archivo;
-                font-size: 2em;
+                font-size: 1.65em;
                 color: $blueDay;
             }
 
@@ -272,6 +282,7 @@ body {
         text-align: center; 
         font-size: 1.1em;
         top: 10px;
+        color: #ffffff;
 
         a {
             text-decoration: none;
@@ -287,15 +298,16 @@ body {
 }
 
 .bg1 {
-    background-color: $greyStrong;
+    background-color: #ffffff;
+
 }
 
 .bg2 {
-    background-color: $blueStrong;
+    background-color: #f2f2f2;
 }
 
 .bg3 {
-    background: linear-gradient(25deg, #e5e5e5, #d2d2d2, #4b4b4b, #585858); 
+    background: linear-gradient(130deg, #ffffff, #d4d4d4, #3171e1, #020f4c); 
     color: #000000;
 }
 
@@ -336,7 +348,6 @@ span.alert {
 }
 
 .shadow {
-    box-shadow: $shadow2;
     overflow: hidden;
 }
 
@@ -364,3 +375,72 @@ tr:hover {
 }
 
 @import "media-query";
+
+
+.ulflex {
+    max-width: 94%;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    margin-right: 2em;
+    flex-wrap: wrap;
+    padding: 0.5em;
+    margin: 0em;
+    list-style-type: none;
+    border-bottom: 1px dashed #3d3d3d;
+}
+
+ul:hover {
+    background-color: #e4e4e4;
+    color: #000000;
+}
+
+.ullist {
+    flex-wrap: wrap;
+}
+
+.libasic {
+    max-width: 100%;
+    word-wrap: break-word;
+    list-style: none;
+    padding: 0.3em;
+    
+}
+
+.list {
+    padding: 0.5em;
+    margin: 0em;
+}
+
+.title1 {
+    min-width: 38%;
+    margin: 0;
+    color: #000000;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 1.4em;
+    text-align: left; 
+    padding-left: 0.2em;
+    padding-top: 0.5em;
+    text-shadow: 0px 1px 8px rgba(0,0,0, 0.1);
+}
+
+.title2 {
+    font-size: 0.95em;
+    min-width: 38%;
+    padding-left: 0.2em;
+}
+
+li {
+    font-size: 1.2em;
+}
