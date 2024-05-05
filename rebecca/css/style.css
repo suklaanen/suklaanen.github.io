@@ -510,6 +510,12 @@ ul:hover {
   padding: 0.3em;
 }
 
+.strong {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.6em;
+}
+
 .list {
   padding: 0.5em;
   margin: 0em;
@@ -537,4 +543,10 @@ ul:hover {
 
 li {
   font-size: 1.2em;
+}
+
+.keywords {
+  font-size: 0.95em;
+  min-width: 100%;
+  padding-left: 0.7em;
 }/*# sourceMappingURL=style.css.map */
