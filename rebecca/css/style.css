@@ -255,10 +255,6 @@ span {
   color: #14283e;
 }
 
-span:hover {
-  color: #9ccbfc;
-}
-
 span.contact {
   padding-left: 24px;
 }
@@ -522,7 +518,7 @@ ul:hover {
 }
 
 .title1 {
-  min-width: 38%;
+  min-width: 28%;
   margin: 0;
   color: #000000;
   font-weight: normal;
@@ -537,7 +533,7 @@ ul:hover {
 
 .title2 {
   font-size: 0.95em;
-  min-width: 38%;
+  min-width: 28%;
   padding-left: 0.2em;
 }
 
@@ -546,7 +542,7 @@ li {
 }
 
 .keywords {
-  font-size: 0.95em;
+  font-size: 0.8em;
   min-width: 100%;
-  padding-left: 0.7em;
+  padding-left: 0.4em;
 }/*# sourceMappingURL=style.css.map */
