@@ -185,7 +185,7 @@ body {
             padding-left: 34px;
             padding-bottom: 25px;
             padding-right: 34px;
-            border-bottom: $borderLight #000000;
+            /*border-bottom: $borderLight #000000;*/
             max-width: 1200px;
    
             p, th, td {
@@ -311,6 +311,12 @@ body {
     color: #000000;
 }
 
+.bg4 {
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: #fafafa;
+  }
+
 img.tiny {
     width: 30px;
 }
@@ -392,14 +398,17 @@ ul {
     padding: 0.5em;
     margin: 0em;
     list-style-type: none;
+}
+
+ul:not(:has(li.strengths)) {
     border-bottom: 1px dashed #3d3d3d;
 }
 
-ul:hover {
+ul:not(:has(li.strengths)):hover {
     background-color: #e4e4e4;
     color: #000000;
-}
-
+  }
+  
 .ullist {
     flex-wrap: wrap;
 }
