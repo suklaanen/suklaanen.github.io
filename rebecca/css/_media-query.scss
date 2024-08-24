@@ -1,0 +1,251 @@
+
+
+@media only screen and (max-width: 1260px) {
+
+
+    #quote {
+        font-size: 1.7em !important;
+    }
+
+    #container {
+    
+        
+        #content {
+        
+            .page {
+
+                p, td {
+                    font-size: 1em;
+                }
+    
+                h3 {
+                    font-size: 2em;
+                    padding-top: 15px;
+                }
+
+                h4 {
+                    font-size: 1.2em;
+                }
+
+            }
+        }
+
+
+        #footer {
+            font-size: 0.9em;
+        }
+    
+    }
+
+    li {
+        font-size: 1em !important;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px) {
+
+    #colorbar {
+        height: 90px !important;  
+    }
+
+    #content {
+        margin-top: 90px !important;
+    }
+
+    h1 {
+        padding-top: 0.55em !important;
+        padding-left: 0.7em;
+        font-size: 2.4em !important;
+    }
+
+    .navi {
+        font-size: 1.7em !important;
+        padding-top: 1em !important;
+    }
+
+    .navi a {
+        padding-right: 30px !important; 
+    }
+
+    .title1 {
+        min-width: 100% !important;
+
+    }
+    
+    .title2 {
+        min-width: 100% !important;
+    }
+
+    .page {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+
+    
+    #quote {
+        top: 23% !important; 
+        left: 6% !important; 
+        font-size: 1.5em !important;
+    }
+
+    #colorbar {
+        height: 70px !important;  
+    }
+
+    #content {
+        margin-top: 70px !important;
+    }
+
+    h1 {
+        padding-top: 0.55em !important;
+        padding-left: 0.7em;
+        font-size: 1.8em !important;
+    }
+
+    .navi {
+        font-size: 1.3em !important;
+        padding-top: 1em !important;
+    }
+
+    .navi a {
+        padding-right: 15px !important; 
+    }
+
+    #container {
+
+        #content {
+
+            .page {
+                padding-left: 25px;
+
+                .box {
+                    padding-left: 15px;
+                }
+
+                p, th, td {
+                    font-size: 0.9em;
+                }
+    
+                h3 {
+                    font-size: 2em;
+                    padding-top: 15px;
+                }
+
+                h4 {
+                    font-size: 1.2em;
+                }
+
+            }
+        }
+
+        #footer {
+            font-size: 0.9em;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    
+    #quote {
+        top: 21% !important; 
+        left: 5% !important; 
+        font-size: 1.1em !important;
+    }
+
+    #colorbar {
+        height: 60px !important;  
+    }
+
+    #content {
+        margin-top: 60px !important;
+    }
+
+    h1 {
+        padding-top: 0.55em !important;
+        padding-left: 0.3em !important;
+        font-size: 1.6em !important;
+    }
+
+    .navi {
+        font-size: 1.1em !important;
+        padding-top: 1em !important;
+    }
+
+    .navi a {
+        padding-right: 11px !important; 
+    }
+
+    .page {
+        padding-left: 9px !important;
+        padding-right: 9px !important;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+
+    .header-container {
+        flex-wrap: nowrap !important;
+    }
+    
+    #colorbar {
+        height: 70px !important;  
+    }
+
+    #content {
+        margin-top: 70px !important;
+    }
+
+    h1 { 
+        position: absolute;
+        padding-top: 0.2em !important;
+        padding-left: 0.65em !important;
+        font-size: 1.5em !important;
+    }
+    
+    #quote {
+        font-size: 1.0em !important;
+    }
+
+    .navi {
+        position: absolute;
+        font-size: 1em !important;
+        padding-top: 2.3em !important;
+        padding-left: 1.3em !important;
+    }
+
+    .navi a {
+        padding-right: 8px !important; 
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+      margin-top: 25px;
+      background-color: #1f1f1f;
+      text-align: center;
+    }
+    #error-msg {
+      display: block;
+    }
+    #error-table {
+      display: none;
+    }
+    #header {
+      display: none;
+    }
+    #container {
+      display: none;
+    }
+    #content {
+      display: none;
+    }
+    #colorbar {
+      display: none;
+    }
+  }/*# sourceMappingURL=style.css.map */
