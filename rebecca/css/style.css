@@ -131,7 +131,7 @@ body {
   padding: 12px;
   border-radius: 10px;
   width: 460px;
-  top: 50%;
+  top: 60%;
   left: 8%;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 1.3em;
@@ -315,6 +315,14 @@ tr:hover {
   #container #content .page h4 {
     font-size: 1.2em;
   }
+  #container #content .pImg .contactBox {
+    padding: 6px;
+    width: 390px;
+    top: 50%;
+    left: 8%;
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 1.1em;
+  }
   #container #footer {
     font-size: 0.9em;
   }
@@ -328,6 +336,12 @@ tr:hover {
   }
   #content {
     margin-top: 90px !important;
+  }
+  #content .pImg .contact {
+    display: none;
+  }
+  #content .pImg .contactBox {
+    width: 180px !important;
   }
   h1 {
     padding-top: 0.55em !important;
@@ -350,6 +364,10 @@ tr:hover {
   .page {
     padding-left: 16px !important;
     padding-right: 16px !important;
+  }
+  img.tiny {
+    width: 25px;
+    padding: 6px;
   }
 }
 @media only screen and (max-width: 680px) {
@@ -408,6 +426,12 @@ tr:hover {
   #content {
     margin-top: 60px !important;
   }
+  #content .pImg .contact {
+    display: none;
+  }
+  #content .pImg .contactBox {
+    width: 150px !important;
+  }
   h1 {
     padding-top: 0.55em !important;
     padding-left: 0.3em !important;
@@ -423,6 +447,10 @@ tr:hover {
   .page {
     padding-left: 9px !important;
     padding-right: 9px !important;
+  }
+  img.tiny {
+    width: 20px;
+    padding: 6px;
   }
 }
 @media only screen and (max-width: 415px) {
