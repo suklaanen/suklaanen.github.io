@@ -116,7 +116,7 @@ body {
 }
 #container #content .pImg span#quote {
   position: absolute;
-  top: 30%;
+  top: 18%;
   left: 7%;
   width: 35%;
   margin-left: 20px;
@@ -124,6 +124,17 @@ body {
   font-size: 2.4em;
   color: #ffffff;
   z-index: 1;
+}
+#container #content .pImg .contactBox {
+  background-color: rgba(253, 238, 255, 0.7);
+  position: absolute;
+  padding: 12px;
+  border-radius: 10px;
+  width: 460px;
+  top: 50%;
+  left: 8%;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 1.3em;
 }
 #container #content .page {
   margin: 0 auto;
@@ -133,13 +144,6 @@ body {
   padding-right: 34px;
   /*border-bottom: $borderLight #000000;*/
   max-width: 1200px;
-  /*h3 {
-      margin: 0;
-      font-family: $archivo;
-      font-size: 4.7em;
-      color: $lightLightBlue;
-      padding-top: 1vw;
-  }*/
 }
 #container #content .page p, #container #content .page th, #container #content .page td {
   font-size: 1.3em;
@@ -240,6 +244,7 @@ body {
 
 img.tiny {
   width: 30px;
+  padding: 3px;
 }
 
 .hide {
