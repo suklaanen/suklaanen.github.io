@@ -355,10 +355,7 @@ tr:hover {
   .navi a {
     padding-right: 30px !important;
   }
-  .title1 {
-    min-width: 100% !important;
-  }
-  .title2 {
+  .title1, .title2, .title3 {
     min-width: 100% !important;
   }
   .page {
@@ -577,6 +574,13 @@ ul:not(:has(li.strengths)):hover {
   font-size: 0.95em;
   min-width: 28%;
   padding-left: 0.2em;
+}
+
+.title3 {
+  font-size: 1.3em;
+  min-width: 15%;
+  padding-left: 0.2em;
+  color: #02142c;
 }
 
 li {

@@ -456,6 +456,13 @@ ul:not(:has(li.strengths)):hover {
     padding-left: 0.2em;
 }
 
+.title3 {
+    font-size: 1.3em;
+    min-width: 15%;
+    padding-left: 0.2em;
+    color: $blueDeep;
+}
+
 li {
     font-size: 1.2em;
 }
