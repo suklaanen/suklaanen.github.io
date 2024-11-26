@@ -142,6 +142,7 @@ body {
   padding-left: 34px;
   padding-bottom: 25px;
   padding-right: 34px;
+  padding-top: 7px;
   /*border-bottom: $borderLight #000000;*/
   max-width: 1200px;
 }
@@ -188,8 +189,8 @@ body {
   margin-top: 1.8em;
   padding-left: 0.4em;
   font-family: "Archivo Narrow", sans-serif;
-  font-size: 1.65em;
-  color: #6b9fe1;
+  font-size: 1.8em;
+  color: #000000;
 }
 #container #content .page h4.soft {
   color: #ca97cf;
@@ -514,7 +515,7 @@ tr:hover {
   list-style-type: none;
 }
 
-ul {
+.ulNextTo {
   display: flex;
   flex-direction: row;
   /*justify-content: space-between;*/

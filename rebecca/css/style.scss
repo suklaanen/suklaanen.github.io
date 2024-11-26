@@ -197,6 +197,7 @@ body {
             padding-left: 34px;
             padding-bottom: 25px;
             padding-right: 34px;
+            padding-top: 7px;
             /*border-bottom: $borderLight #000000;*/
             max-width: 1200px;
    
@@ -253,8 +254,8 @@ body {
                 margin-top: 1.8em;
                 padding-left: 0.4em;
                 font-family: $archivo;
-                font-size: 1.65em;
-                color: $blueDay;
+                font-size: 1.8em;
+                color: $black;
             }
 
             h4.soft {
@@ -394,7 +395,7 @@ tr:hover {
     list-style-type: none;
 }
 
-ul {
+.ulNextTo {
     display: flex;
     flex-direction: row;
     /*justify-content: space-between;*/
