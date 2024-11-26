@@ -2,10 +2,85 @@
 /* Unicode-hex v 15.1 */
 @import url("https://fonts.googleapis.com/css?family=Arapey:400,400i|Montserrat:400,400i,700,700i|Parisienne");
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
-.custom-emoji-1::before {
+.custom-emoji-0::before {
   font-family: "Noto Color Emoji", sans-serif;
   font-size: 18px;
   content: "🧡";
+}
+
+.custom-emoji-1 {
+  margin-left: 2em;
+}
+.custom-emoji-1::before {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 20px;
+  content: "ℹ";
+}
+.custom-emoji-1:hover {
+  text-shadow: 0px 0px 20px rgba(52, 127, 225, 0.8);
+}
+
+.custom-emoji-2 {
+  margin: 0.4em;
+}
+.custom-emoji-2::before {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 18px;
+  content: "🔍";
+}
+
+.custom-emoji-3 {
+  margin: 0.4em;
+}
+.custom-emoji-3::before {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 18px;
+  content: "📱";
+}
+
+.custom-emoji-4 {
+  margin: 0.4em;
+}
+.custom-emoji-4::before {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 18px;
+  content: "🎮";
+}
+
+.custom-emoji-5 {
+  margin: 0.4em;
+}
+.custom-emoji-5::before {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 18px;
+  content: "🌐";
+}
+
+.custom-emoji-6 {
+  margin: 0.4em;
+}
+.custom-emoji-6::before {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 18px;
+  content: "🔨";
+}
+
+.custom-emoji-7 {
+  margin: 0.4em;
+}
+.custom-emoji-7::before {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 18px;
+  content: "💻";
+}
+
+.custom-emoji-8 {
+  margin: 0.4em;
+}
+.custom-emoji-8::before {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 18px;
+  content: "🔒";
 }
 
 body {
@@ -13,7 +88,7 @@ body {
   margin: 0;
   background-color: #efefef;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   color: #000000;
 }
 
@@ -186,11 +261,14 @@ body {
   color: #722457;
 }
 #container #content .page h4 {
-  margin-top: 1.8em;
+  margin-top: 1em;
   padding-left: 0.4em;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 1.8em;
-  color: #000000;
+  color: #171b33;
+}
+#container #content .page h4:hover {
+  text-shadow: 0px 0px 20px rgba(120, 23, 138, 0.8);
 }
 #container #content .page h4.soft {
   color: #ca97cf;
@@ -200,6 +278,8 @@ body {
 }
 #container #content .page .box {
   padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 30px;
 }
 #container #content .page .border-left {
   border-left: 1px solid;
@@ -245,7 +325,8 @@ body {
 
 img.tiny {
   width: 30px;
-  padding: 3px;
+  padding: 6px;
+  vertical-align: middle;
 }
 
 .hide {
@@ -572,7 +653,7 @@ ul:not(:has(li.strengths)):hover {
 }
 
 .title2 {
-  font-size: 0.95em;
+  font-size: 1em;
   min-width: 28%;
   padding-left: 0.2em;
 }

@@ -2,6 +2,7 @@
 
 $emoji-font-family: 'Noto Color Emoji', sans-serif;
 $emoji-font-size: 18px;
+$info-font-size: 20px;
 
 @mixin emoji-style($content) {
     &::before {
@@ -11,7 +12,66 @@ $emoji-font-size: 18px;
     }
   }
 
-  // orange heart
-.custom-emoji-1 {
+@mixin info-style($content) {
+    &::before {
+      font-family: $emoji-font-family;
+      font-size: $info-font-size;
+      content: $content;
+    }
+  }
+  
+// orange heart
+.custom-emoji-0 {
   @include emoji-style("\1F9E1"); 
 }
+
+// info
+.custom-emoji-1 {
+  @include info-style("\2139"); 
+  margin-left: 2em;
+  &:hover {
+    text-shadow: 0px 0px 20px rgba(52, 127, 225, 0.8);
+  }
+}
+
+// suurennuslasi
+.custom-emoji-2 {
+  @include emoji-style("\1F50D"); 
+  margin: 0.4em;
+}
+
+// mobilephone
+.custom-emoji-3 {
+  @include emoji-style("\1F4F1"); 
+  margin: 0.4em;
+}
+
+// videogame
+.custom-emoji-4 {
+  @include emoji-style("\1F3AE"); 
+  margin: 0.4em;
+}
+
+// globe, web
+.custom-emoji-5 {
+  @include emoji-style("\1F310"); 
+  margin: 0.4em;
+}
+
+// in progress hammer
+.custom-emoji-6 {
+  @include emoji-style("\1F528"); 
+  margin: 0.4em;
+}
+
+// desktop app
+.custom-emoji-7 {
+  @include emoji-style("\1F4BB"); 
+  margin: 0.4em;
+}
+
+// locked
+.custom-emoji-8 {
+  @include emoji-style("\1F512"); 
+  margin: 0.4em;
+  }
