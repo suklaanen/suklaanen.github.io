@@ -75,3 +75,9 @@ $info-font-size: 20px;
   @include emoji-style("\1F512"); 
   margin: 0.4em;
   }
+
+// diamond 
+.custom-emoji-9 {
+  @include info-style("\1F48E"); 
+  margin: 0.4em;
+}
