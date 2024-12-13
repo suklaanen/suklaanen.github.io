@@ -424,6 +424,13 @@ tr:hover {
     font-size: 0.7em;
     padding-left: 0.35em;
   }
+  .custom-emoji-1 {
+    display: none;
+  }
+  .libasic, .litiny {
+    flex: 0 0 100%;
+    margin-left: 1rem;
+  }
 }
 @media only screen and (max-width: 1260px) {
   #quote {
@@ -704,7 +711,7 @@ ul:not(:has(li.strengths)):hover {
 
 .title2 {
   font-size: 1em;
-  min-width: 28%;
+  min-width: 25%;
   padding-left: 0.2em;
 }
 
@@ -716,7 +723,7 @@ ul:not(:has(li.strengths)):hover {
 }
 
 li {
-  font-size: 1.2em;
+  margin-right: 2rem;
 }
 
 .keywords {

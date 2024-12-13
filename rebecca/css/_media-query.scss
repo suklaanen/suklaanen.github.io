@@ -18,6 +18,15 @@
         padding-left: 0.35em;
     }
 
+    .custom-emoji-1 {
+        display: none;
+    }
+
+    .libasic, .litiny {
+        flex: 0 0 100%;
+        margin-left: 1rem;
+    }
+
 }
 
 @media only screen and (max-width: 1260px) {

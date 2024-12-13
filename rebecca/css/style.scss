@@ -449,7 +449,6 @@ ul:not(:has(li.strengths)):hover {
     word-wrap: break-word;
     list-style: none;
     align-self: center;
-
 }
 
 .litiny {
@@ -485,7 +484,7 @@ ul:not(:has(li.strengths)):hover {
 
 .title2 {
     font-size: 1em;
-    min-width: 28%;
+    min-width: 25%;
     padding-left: 0.2em;
 }
 
@@ -497,7 +496,7 @@ ul:not(:has(li.strengths)):hover {
 }
 
 li {
-    font-size: 1.2em;
+    margin-right: 2rem;
 }
 
 .keywords {
