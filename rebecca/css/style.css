@@ -223,10 +223,10 @@ body {
 #container #content .page {
   margin: 0 auto;
   margin-top: 0px;
-  padding-left: 34px;
-  padding-bottom: 25px;
-  padding-right: 34px;
-  padding-top: 7px;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-top: 0.3rem;
   max-width: 1200px;
 }
 #container #content .page .profile-container {
@@ -286,10 +286,9 @@ body {
   color: #722457;
 }
 #container #content .page h4 {
-  margin-top: 1em;
-  padding-left: 0.4em;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 1.8em;
+  line-height: 1rem;
   color: #171b33;
 }
 #container #content .page h4:hover {
@@ -350,8 +349,8 @@ body {
 
 img.tiny {
   width: 30px;
-  padding: 6px;
   vertical-align: middle;
+  margin: 0.4rem;
 }
 
 .hide {
@@ -374,7 +373,8 @@ span {
 }
 
 span.contact {
-  padding-left: 24px;
+  padding-left: 0.2rem;
+  line-height: 1.7rem;
 }
 
 span.alert {
@@ -427,9 +427,11 @@ tr:hover {
   .custom-emoji-1 {
     display: none;
   }
-  .libasic, .litiny {
-    flex: 0 0 100%;
-    margin-left: 1rem;
+  #hideWhenCV {
+    display: none;
+  }
+  .newPageWhenCV {
+    page-break-before: always;
   }
 }
 @media only screen and (max-width: 1260px) {
@@ -461,7 +463,7 @@ tr:hover {
     font-size: 1em !important;
   }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   #colorbar {
     height: 90px !important;
   }
@@ -495,10 +497,9 @@ tr:hover {
   }
   img.tiny {
     width: 25px;
-    padding: 6px;
   }
 }
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 770px) {
   #quote {
     top: 23% !important;
     left: 6% !important;
@@ -522,11 +523,17 @@ tr:hover {
   .navi a {
     padding-right: 15px !important;
   }
-  #container #content .profilepic {
-    display: none;
-  }
   #container #content .page {
     padding-left: 25px;
+  }
+  #container #content .page .profile-container {
+    display: block;
+  }
+  #container #content .page .profilepic {
+    margin-left: 1rem;
+    width: 210px;
+    height: 210px;
+    margin-top: 1.4rem;
   }
   #container #content .page .box {
     padding-left: 15px;
@@ -545,7 +552,7 @@ tr:hover {
     font-size: 0.9em;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
   #quote {
     top: 21% !important;
     left: 5% !important;
@@ -581,10 +588,9 @@ tr:hover {
   }
   img.tiny {
     width: 20px;
-    padding: 6px;
   }
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 470px) {
   .header-container {
     flex-wrap: nowrap !important;
   }
@@ -675,7 +681,6 @@ ul:not(:has(li.strengths)):hover {
 .libasic {
   max-width: 100%;
   word-wrap: break-word;
-  list-style: none;
   align-self: center;
 }
 
@@ -711,8 +716,9 @@ ul:not(:has(li.strengths)):hover {
 
 .title2 {
   font-size: 1em;
-  min-width: 25%;
-  padding-left: 0.2em;
+  margin-top: 0.1rem;
+  margin-bottom: 0.5rem;
+  line-height: 2rem;
 }
 
 .title3 {
@@ -720,6 +726,7 @@ ul:not(:has(li.strengths)):hover {
   min-width: 15%;
   padding-left: 0.2em;
   color: #02142c;
+  display: none;
 }
 
 li {
@@ -730,4 +737,51 @@ li {
   font-size: 0.8em;
   min-width: 100%;
   padding-left: 0.4em;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-content {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+
+.carousel-item {
+  min-width: 100%;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  box-sizing: border-box;
+}
+
+.carousel-button {
+  background-color: #533063;
+  color: white;
+  border: none;
+  padding: 1rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button.left {
+  left: 0;
+}
+
+.carousel-button.right {
+  right: 0;
 }/*# sourceMappingURL=style.css.map */

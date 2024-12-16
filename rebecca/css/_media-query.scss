@@ -22,11 +22,14 @@
         display: none;
     }
 
-    .libasic, .litiny {
-        flex: 0 0 100%;
-        margin-left: 1rem;
+    #hideWhenCV {
+        display: none;
     }
 
+    .newPageWhenCV {
+        page-break-before: always;
+    }
+    
 }
 
 @media only screen and (max-width: 1260px) {
@@ -84,7 +87,7 @@
     
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 
     #colorbar {
         height: 90px !important;  
@@ -130,13 +133,13 @@
 
     img.tiny {
         width: 25px;
-        padding: 6px;
+
     }
 }
 
 
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 770px) {
 
     
     #quote {
@@ -172,12 +175,19 @@
 
         #content {
 
-            .profilepic {
-                display: none;
-            }
-
             .page {
                 padding-left: 25px;
+
+                .profile-container {
+                    display: block;
+                }
+
+                .profilepic {
+                    margin-left: 1rem;
+                    width: 210px;
+                    height: 210px;
+                    margin-top: 1.4rem;
+                }
 
                 .box {
                     padding-left: 15px;
@@ -206,7 +216,7 @@
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
     
     #quote {
         top: 21% !important; 
@@ -254,11 +264,10 @@
 
     img.tiny {
         width: 20px;
-        padding: 6px;
     }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 470px) {
 
     .header-container {
         flex-wrap: nowrap !important;
