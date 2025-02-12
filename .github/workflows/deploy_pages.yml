@@ -1,0 +1,49 @@
+name: Deploy to Github Pages
+on:
+    push:
+        branches:
+            - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+    build:
+      name: Build
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Checkout Repo
+          uses: actions/checkout@v4
+
+        - name: Create Node Environment
+          uses: actions/setup-node@v4
+          with: 
+            node-version: 20.x
+
+        - name: Install Packages and Build Application  # Installs npm packages and builds the Vue.js application.
+          run: |
+            npm ci
+            npm run build
+
+        - name: Setup Pages  # Configures pages for deployment.
+          id: pages
+          uses: actions/configure-pages@v4
+  
+        - name: Upload artifact
+          uses: actions/upload-pages-artifact@v3
+          with:
+            # Upload built artifacts
+            path: 'dist'
+    deploy:
+      needs: build
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}      
+      runs-on: ubuntu-latest
+      steps:
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v4
