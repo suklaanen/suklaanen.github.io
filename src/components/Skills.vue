@@ -12,6 +12,7 @@ import MindsetIcon from './icons/IconMindset.vue'
 import MediaIcon from './icons/IconMedia.vue'
 import TestingIcon from './icons/IconTesting.vue'
 import DockerIcon from './icons/IconDocker.vue'
+import CloudIcon from './icons/IconCloud.vue'
 </script>
 
 <template>
@@ -97,6 +98,14 @@ import DockerIcon from './icons/IconDocker.vue'
     </template>
     <template #heading>Pelikehitys</template>
     Unreal Engine
+  </ContentItem>
+
+  <ContentItem>
+    <template #icon>
+      <CloudIcon />
+    </template>
+    <template #heading>Pilvipalvelut</template>
+    Render, Firebase, AWS, Azure
   </ContentItem>
 
 </PageItem>

@@ -46,4 +46,21 @@ h3 {
   color: var(--color-heading);
 }
 
+@media (max-width: 1024px) {
+
+.item:hover, .item:focus, .item:active {
+  transform: none;
+}
+
+h3:hover {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  color: var(--color-);
+}
+
+
+
+}
+
 </style>
