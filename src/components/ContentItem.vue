@@ -52,14 +52,9 @@ h3 {
   transform: none;
 }
 
-h3:hover {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-bottom: 0.4rem;
-  color: var(--color-);
+h3:hover, h3:focus, h3:active {
+  color: #11ff90;
 }
-
-
 
 }
 
