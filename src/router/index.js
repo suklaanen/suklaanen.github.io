@@ -20,12 +20,12 @@ const router = createRouter({
     // legacy route because of old links
     {
       path: '/rebecca',
-      name: 'main',
+      name: 'legacyMain',
       component: MainView,
       children: [
         {
           path: '',
-          name: 'home',
+          name: 'legacyHome',
           component: HomeView,
         },
       ],
