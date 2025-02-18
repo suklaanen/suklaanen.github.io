@@ -17,6 +17,19 @@ const router = createRouter({
         },
       ],
     },
+    // legacy route because of old links
+    {
+      path: '/rebecca',
+      name: 'main',
+      component: MainView,
+      children: [
+        {
+          path: '',
+          name: 'home',
+          component: HomeView,
+        },
+      ],
+    },
   ],
   scrollBehavior(to) {
     if (to.hash) {
