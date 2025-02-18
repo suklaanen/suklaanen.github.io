@@ -27,6 +27,7 @@ jobs:
           run: |
             npm ci
             npm run build
+            cp dist/index.html dist/404.html
 
         - name: Setup Pages  # Configures pages for deployment.
           id: pages
