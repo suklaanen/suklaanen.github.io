@@ -29,4 +29,11 @@ const scrollToTop = () => {
 .back-to-top:hover {
   opacity: 0.7;
 }
+
+@media print {
+  .back-to-top {
+    display: none;
+  }
+}
+
 </style>

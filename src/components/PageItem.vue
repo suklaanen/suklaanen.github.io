@@ -49,6 +49,14 @@
   }
 
 }
+
+@media print {
+
+  h3 {
+  color: #04701e;
+  }
+  
+}
   
 </style>
   

@@ -48,3 +48,23 @@ a,
     max-width: 100%; 
   }
 }
+
+@media print {
+
+  body {
+    display: block;
+    padding: 2 rem;
+    color: #000;
+  }
+
+  #app {
+    max-width: 100%;
+  }
+
+  a,
+.green {
+  color: #0d115e;
+}
+  
+
+}

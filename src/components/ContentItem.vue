@@ -58,4 +58,16 @@ h3:hover, h3:focus, h3:active {
 
 }
 
+@media print {
+
+i {
+color: #232823;
+}
+
+h3 {
+color: #0d115e;
+}
+
+}
+
 </style>
