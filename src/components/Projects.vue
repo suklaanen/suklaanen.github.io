@@ -50,6 +50,15 @@ import ContentItem from './ContentItem.vue'
     Android, React Native, Firebase, Firestore
   </ContentItem>
   
+  <ContentItem>
+    <template #icon>
+      <GameIcon />
+    </template>
+    <template #heading><a href="https://github.com/suklaanen/reso-projektit#2025-Q1-CozyHouseTour">Cozy House Tour</a></template>
+    Q1/2025<br/>
+    Unreal Engine, C++, Blueprint, Sweet Home 3D, Audacity, Blender
+  </ContentItem>
+
 </PageItem>
 
 </template>
