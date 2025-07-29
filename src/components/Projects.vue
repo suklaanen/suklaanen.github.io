@@ -59,6 +59,16 @@ import ContentItem from './ContentItem.vue'
     Unreal Engine, C++, Blueprint, Sweet Home 3D, Audacity, Blender
   </ContentItem>
 
+  <ContentItem>
+    <template #icon>
+      <GameIcon />
+    </template>
+    <template #heading>Horox: Alptraum</template>
+    Q2-Q3/2025<br/>
+    Unreal Engine, Blender, Adobe, Audacity <br/>
+    1st person kauhupeli, julkaisu suunnitteilla 2025 Q3
+  </ContentItem>
+
 </PageItem>
 
 </template>

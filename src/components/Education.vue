@@ -7,7 +7,7 @@ import PageItem from './PageItem.vue'
   <PageItem>
     <template #heading>Koulutus</template>
     <ContentItem>
-      Insinööri AMK, tietotekniikka - 3. vuoden opiskelija
+      Insinööri AMK, tietotekniikka - 3-4. vuoden opiskelija, harjoittelu puuttuu
     </ContentItem>
 
   </PageItem>

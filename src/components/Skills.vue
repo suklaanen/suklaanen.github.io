@@ -25,7 +25,9 @@ import CloudIcon from './icons/IconCloud.vue'
       <MindsetIcon />
     </template>
     <template #heading>Mindsetti</template>
-    DevOps, Kanban
+    DevOps, Kanban <br/>
+    Video-esitys. 29.7.2025: <br/>
+    <a href="https://www.youtube.com/watch?v=dB4Lem41IOI">Mukaan pelialalle - tuurilla vai taidolla?</a>
   </ContentItem>
 
   <ContentItem>
@@ -33,7 +35,7 @@ import CloudIcon from './icons/IconCloud.vue'
       <DesktopIcon />
     </template>
     <template #heading>Ohjelmistokehitys</template>
-    Java, Python, C, C++, Node.js, Express.js, Qt Framework, Spring Boot
+    C, C++, Java, Python, Node.js, Express.js, Qt Framework, Spring Boot
   </ContentItem>
 
   <ContentItem>
@@ -81,15 +83,15 @@ import CloudIcon from './icons/IconCloud.vue'
       <TestingIcon />
     </template>
     <template #heading>Testaus ja automaatio</template>
-    Robot Framework, Postman, GitHub Actions
+    Robot Framework, Postman, CI/CD, GitHub Actions
   </ContentItem>
 
   <ContentItem>
     <template #icon>
       <MediaIcon />
     </template>
-    <template #heading>Media ja suunnittelu ( UI/UX )</template>
-    Corel, Magix, Audacity, Blender, OBS, Miro, LucidChart, Figma
+    <template #heading>Media, muotoilu ja suunnittelu ( UI/UX )</template>
+    Blender, Adobe, Corel, Magix, Audacity, OBS, Miro, LucidChart, Figma
   </ContentItem>
 
   <ContentItem>
