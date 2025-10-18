@@ -10,7 +10,7 @@ import ContentItem from './ContentItem.vue'
 <template>
   <PageItem>
 
-  <template #heading>Projektit</template>
+  <template #heading>Projektit & Työhistoria</template>
 
   <ContentItem>
     <template #icon>
@@ -63,10 +63,20 @@ import ContentItem from './ContentItem.vue'
     <template #icon>
       <GameIcon />
     </template>
-    <template #heading>Horox: Alptraum</template>
+    <template #heading><a href="https://github.com/suklaanen/reso-projektit#2025-Q2-Q3-HoroxAlptraum">Horox: Alptraum</a></template>
     Q2-Q3/2025<br/>
     Unreal Engine, Blender, Adobe, Audacity <br/>
-    1st person kauhupeli, julkaisu suunnitteilla 2025 Q3
+    1st person kauhupeli, <a href="https://lejdi.itch.io/horoxalptraum">julkaistu @ itch.io</a>
+  </ContentItem>
+
+  <ContentItem>
+    <template #icon>
+      <GameIcon />
+    </template>
+    <template #heading>Game Producer @ Psyche's Royale Gaming ry</template>
+    Q3-Q4/2025 <br/>
+    Unity, Figma, Git<br/>
+    Mobiilipeliprojekti, jossa toimin tuottajana ja suunnittelijana opettaja-moduulille syksyllä 2025
   </ContentItem>
 
 </PageItem>
