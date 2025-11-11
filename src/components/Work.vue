@@ -5,8 +5,8 @@ import WebIcon from './icons/IconWeb.vue'
 import MobileIcon from './icons/IconMobile.vue'
 import DesktopIcon from './icons/IconDesktop.vue'
 import GameIcon from './icons/IconGame.vue'
-import ProjectItem from './ProjectItem.vue'
-import projectsData from '../data/projects.json'
+import JobItem from './JobItem.vue'
+import jobsData from '../data/jobs.json'
 
 const iconMap: Record<string, any> = {
   web: WebIcon,
@@ -15,10 +15,11 @@ const iconMap: Record<string, any> = {
   game: GameIcon
 }
 
-const projects = projectsData.map(p => ({
+const jobs = jobsData.map(p => ({
   ...p,
   icon: iconMap[p.icon.replace('Icon', '').toLowerCase()]
 }))
+
 
 const route = useRoute()
 
@@ -26,24 +27,29 @@ const route = useRoute()
 
 <template>
   <PageItem>
-    <template #heading>Projektit</template>
+    <template #heading>{{ $t('career') }}</template>
 
-    <ProjectItem
-      v-for="project in projects"
-      :key="project.id"
-      :bgimage="project.bgimage"
+    <JobItem
+      v-for="job in jobs"
+      :key="job.id"
+      :bgimage="job.bgimage"
     >
       <template #icon>
-        <component :is="project.icon" />
+        <component :is="job.icon" />
       </template>
 
       <template #heading>
-        {{ $t('title-' + project.id) }}
+        {{ $t('title-' + job.id) }} @ {{ job.agency }}
       </template>
 
-      {{ project.date }} <br />
-      {{ project.tech }} <br /><br />
-      {{ $t('desc-' + project.id) }}
-    </ProjectItem>
+      {{ job.date }} <br />
+      {{ job.tech }} <br /><br />
+      {{ $t('desc-' + job.id) }}
+    </JobItem>
   </PageItem>
+  
 </template>
+
+
+
+

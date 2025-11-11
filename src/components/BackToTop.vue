@@ -8,7 +8,7 @@ const scrollToTop = () => {
 <template>
   <PageItem>
     <button @click="scrollToTop" class="back-to-top">
-      Palaa alkuun
+      {{ $t('backtotop') }}
     </button>
   </PageItem>
 </template>

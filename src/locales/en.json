@@ -1,0 +1,54 @@
+{
+    "title": "Junior Software & Game Developer",
+    "workHistory": "Work History",
+    "backToTop": "Back to top",
+    "welcome": "Welcome to my portfolio!",
+    "backtotop": "Back to top",
+
+    "degree": "BE, Information Technology",
+    "worktitle": "Junior Software & Game Developer",
+
+    "who": "About Me",
+    "education": "Education",
+    "career": "Career",
+    "skills": "Skills",
+    "projects": "Projects",
+
+    "mindset": "Mindset",
+    "softwareDevelopment": "Software Development",
+    "gameDevelopment": "Game Development",
+    "webDevelopment": "Web Development",
+    "mobileDevelopment": "Mobile Development",
+    "databases": "Databases",
+    "docks": "Dock Technologies",
+    "versionControl": "Version Control",
+    "testingAndAutomation": "Testing & Automation",
+    "mediaCreation": "Media Creation",
+    "cloudServices": "Cloud Services",
+
+    "title-job-1": "Game Producer",
+    "desc-job-1": "I Worked as a Producer for Psyche's Royale Gaming ry on the Alt Zone mobile game project, developed as an educational tool for Finnish schools (grades 7-9). As part of the production team, I was responsible for planning and shaping the teacher's module in autumn 2025.",
+
+    "title-job-2": "Software Developer Intern",
+    "desc-job-2": "I am participating as a software developer intern in the design and implementation of a new information system concept from the initial idea to a demo version. I will gain deeper insight into:- technology choices & automation pipelines of a new software project- user-centered design- seamless end2end implementation",
+
+    "title-project-1": "Bank Automat (ATM)",
+    "desc-project-1": "A cute ATM simulator where users can view their balance, browse transactions, and withdraw virtual money depending on ATM funds and limits. Admins can adjust limits and replenish ATMs. Frontend built with Qt, backend with Node.js, and database MySQL.",
+
+    "title-project-2": "Leffaysi movie website",
+    "desc-project-2": "A community-based movie website for film enthusiasts. Users can search for movies and series using various filters (IMDB), review them, and manage their reviews. Users can add titles to their favorites list, create and manage groups, join groups, and chat in them. Profile settings include privacy and content preferences. Two user levels: user and admin, with an admin panel. Frontend built with React Vite, backend with Node.js, and database PostgreSQL.",
+
+    "title-project-3": "Little Bit game",
+    "desc-project-3": "A puzzle game made with Unreal Engine, featuring 16 functional tasks and a hidden duck-hunting Easter egg. The visual style is soft and cartoonish with a 48-color palette. Story elements are presented through intro and outro animations. The player controls the character in third-person view using either a controller or keyboard and mouse. Assets are mostly CC0 licensed, with some textures, models, and sounds made in-house. The Git repository is private; the executable is available on itch.io.",
+
+    "title-project-4": "Kierttis -mobile application",
+    "desc-project-4": "A recycling app inspired by social media giveaway groups. Users can post items to give away, manage their listings and reservations. Each listing has a queue system showing user positions, with expired reservations automatically removed. The publisher and the first reserver can chat to arrange pickup. Android app built with React Native, using Firestore as the database and Firebase for authentication.",
+
+    "title-project-5": "Cozy House Tour virtual tour",
+    "desc-project-5": "A small-scale experiment testing the import of Sweet Home 3D house models into Unreal Engine. Focused on settings and graphics configuration instead of gameplay elements. Features include audio, gameplay, and graphics settings with dynamic UI scaling. User-defined settings persist across sessions.",
+
+    "title-project-6": "Horox: Alptraum horror game",
+    "desc-project-6": "A psychological horror game project featuring multiple win and loss conditions. Randomized elements enhance replayability and immersion. Served as tech lead and DevOps engineer, creating an interaction system, comprehensive settings, and ensuring performance optimization. Documented the process, maintained GitLab wiki, assisted with Git workflows, built releases, and developed a Qt-based launcher. The game build is available on itch.io, with a private Git repository.",
+
+    "aboutmetext": "I am deeply interested in architecture within software and game development. As a team member, I'm reliable and productive. I work on projects efficiently and focused on user-friendly & high-quality solutions. On this website, I have gathered information about my skills, projects, and career so far. Here is also my introduction video (4 min) about myself."
+}

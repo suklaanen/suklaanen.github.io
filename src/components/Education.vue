@@ -5,7 +5,7 @@ import PageItem from './PageItem.vue'
 
 <template>
   <PageItem>
-    <template #heading>Koulutus</template>
+    <template #heading>{{ $t('education') }}</template>
     <ContentItem>
       Insinööri AMK, tietotekniikka, 4. vuoden opiskelija<br/>
     </ContentItem>

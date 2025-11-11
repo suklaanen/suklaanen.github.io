@@ -1,0 +1,54 @@
+{
+    "title": "Junior-ohjelmisto- ja pelikehittäjä",
+    "workHistory": "Työhistoria",
+    "backToTop": "Takaisin ylös",
+    "welcome": "Tervetuloa portfoliooni!",
+    "backtotop": "Palaa alkuun",
+
+    "degree": "Insinööri (AMK), Informaatioteknologia",
+    "worktitle": "Juniori Ohjelmisto- ja pelikehittäjä",
+
+    "who": "Esittely",
+    "education": "Koulutus",
+    "career": "Työhistoria",
+    "skills": "Osaaminen",
+    "projects": "Projektit",
+
+    "mindset": "Mindsetti",
+    "softwareDevelopment": "Ohjelmistokehitys",
+    "gameDevelopment": "Pelikehitys",
+    "webDevelopment": "Web-kehitys",
+    "mobileDevelopment": "Mobiilikehitys",
+    "databases": "Tietokannat",
+    "docks": "Konttiteknologiat",
+    "versionControl": "Versionhallinta ja dokumentaatio",
+    "testingAndAutomation": "Testaus ja automaatio",
+    "mediaCreation": "Media, muotoilu ja suunnittelu (UI/UX)",
+    "cloudServices": "Pilvipalvelut",
+
+    "title-job-1": "Pelituottaja",
+    "desc-job-1": "Mobiilipeliprojekti, jossa toimin tuottajana ja suunnittelijana opettaja-moduulille syksyllä 2025",
+
+    "title-job-2": "Ohjelmistokehittäjä harjoittelija",
+    "desc-job-2": "Uuden ohjelmistokonseptin suunnitteluun ja toteutukseen osallistuminen demoversioon asti. Ymmärrykseni laajenee näillä alueilla: - Teknologia valinnat ja automaatioputket uudelle ohjelmistoprojektille - Käyttäjälähtöinen suunnittelu - Saumaton end2end toteutus",
+
+    "title-project-1": "Pankkiautomaatti (ATM)",
+    "desc-project-1": "Pankkiautomaattisimulaattori, jossa käyttäjä voi tarkastella saldoaan, selailla tapahtumia ja nostaa virtuaalirahaa. Eri automaateilla on omat nostorajat ja varat. Admin-taso voi muokata automaattien rajoja ja varoja. Käyttöliittymä toteutettu Qt:lla, palvelin Node.js ja tietokanta MySQL.",
+
+    "title-project-2": "Leffaysi -elokuvasivusto",
+    "desc-project-2": "Yhteisöllinen elokuvasivusto leffaharrastajille. Käyttäjät voivat hakea elokuvia ja sarjoja eri suodatuksilla (IMDB), arvostella niitä sekä hallita arvostelujaan. Käyttäjät voivat lisätä elokuvia suosikkilistalleen, luoda ja hallinnoida ryhmiä, liittyä ryhmiin ja keskustella niissä. Profiilissa voi säätää yksityisyys- ja sisältöasetuksia. Käyttäjätasoina on user ja admin, joista adminilla on hallintapaneeli. Käyttöliittymän toteutus React Vite, palvelin Node.js ja tietokanta PostgreSQL.",
+
+    "title-project-3": "Little Bit -peli",
+    "desc-project-3": "Unreal Enginellä tehty puzzle-peli, jossa on 16 toiminnallista tehtävää ja salaisena tehtävänä ankkojen etsimistä. Visuaalinen tyyli on kartooninen ja pehmeä, 48 värin paletilla. Pelin alussa ja lopussa kerrotaan tarinaa animaatioilla. Hahmoa ohjataan 3. persoonassa joko ohjaimella tai näppäimistön ja hiiren avulla. Assetit ovat pääosin CC0-lisensioituja, osa tehty itse. Pelin gitti on yksityinen, mutta exe on julkaistu itch.io:ssa.",
+
+    "title-project-4": "Kierttis -mobiilisovellus",
+    "desc-project-4": "Kierrätyssovellus, joka perustuu sosiaalisen median roskalavaryhmiin. Käyttäjät voivat julkaista tavaroita annettavaksi, hallita ilmoituksiaan ja varauksiaan. Ilmoituksilla on jonotusjärjestelmä, jossa jonottajat näkevät sijansa ja vanhentuneet varaukset poistuvat automaattisesti. Julkaisija ja ensimmäinen varaaja voivat keskustella viestiketjussa tuotteen luovutuksesta. Android-sovellus toteutettu React Nativella, tietokanta Firestore ja autentikointi Firebase.",
+
+    "title-project-5": "Cozy House Tour -virtuaalikierros",
+    "desc-project-5": "Pienimuotoinen kokeilu, jossa testattiin Sweet Home 3D -mallien tuomista Unreal Engineen. Pelillisiä ominaisuuksia ei lisätty, vaan keskityttiin asetusten ja grafiikka-asetusten toteutukseen. Mukana mm. audio-, peli- ja grafiikka-asetukset sekä dynaamisesti skaalautuvat widgetit. Käyttäjän määrittämät asetukset säilyvät istunnoissa.",
+
+    "title-project-6": "Horox: Alptraum -kauhupeli",
+    "desc-project-6": "Psykologinen kauhupeliprojekti, jossa on useita tapoja voittaa tai hävitä. Pelissä on satunnaistettuja elementtejä, jotka lisäävät uudelleenpelattavuutta. Toimin projektissa techleadina ja toin mukaan DevOpsia. Toteutin interaktiojärjestelmän, kattavat asetukset ja huolehdin suorituskyvystä. Dokumentoin ja ylläpidin GitLab-wikiä, autoin tiimiä git-haasteissa ja rakensin buildit sekä launcherin Qt:lla. Peli julkaistu itch.io:ssa, kehitysrepo yksityinen.",
+
+    "aboutmetext": "Olen pian valmistuva, tuore IT-alan ammattilainen. Syvästi kiinnostaa arkkitehtuuri ohjelmisto- ja pelikehityksessä. Tiimissä olen luotettava ja oma-aloitteinen. Vien projekteja eteenpäin tehokkaasti ja laadukkaasti. Näille sivuille olen koonnut tietoa mun taidoista, projekteista ja urasta IT-alalla tähän asti. Heti tässä alapuolella on mun 4 minuutin esittelyvideo itsestäni."
+}

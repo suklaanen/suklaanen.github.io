@@ -16,13 +16,14 @@
 
 .item {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   position: relative;
+  font-size: 1.2rem;
 }
 
 .item:hover, .item:focus, .item:active {
-  transform: scale(1.1);
-  transition: transform 0.4s;
+  transform: none;
 }
 
 .details {

@@ -18,13 +18,13 @@ import CloudIcon from './icons/IconCloud.vue'
 <template>
   <PageItem>
 
-  <template #heading>Osaaminen</template>
+  <template #heading>{{ $t('skills') }}</template>
 
   <ContentItem>
     <template #icon>
       <MindsetIcon />
     </template>
-    <template #heading>Mindsetti</template>
+    <template #heading>{{ $t('mindset') }}</template>
     DevOps, Kanban <br/>
     Video-esitys. 29.7.2025: <br/>
     <a href="https://www.youtube.com/watch?v=dB4Lem41IOI">Mukaan pelialalle - tuurilla vai taidolla?</a>
@@ -34,7 +34,7 @@ import CloudIcon from './icons/IconCloud.vue'
     <template #icon>
       <DesktopIcon />
     </template>
-    <template #heading>Ohjelmistokehitys</template>
+    <template #heading>{{ $t('softwareDevelopment') }}</template>
     C, C++, Java, Python, Node.js, Express.js, Qt Framework, Spring Boot
   </ContentItem>
 
@@ -42,7 +42,7 @@ import CloudIcon from './icons/IconCloud.vue'
     <template #icon>
       <WebIcon />
     </template>
-    <template #heading>Web-kehitys</template>
+    <template #heading>{{ $t('webDevelopment') }}</template>
     React.js, Vue, Vite, HTML, CSS, Bootstrap, JavaScript, TypeScript
   </ContentItem>
 
@@ -50,7 +50,7 @@ import CloudIcon from './icons/IconCloud.vue'
     <template #icon>
       <MobileIcon />
     </template>
-    <template #heading>Mobiilikehitys</template>
+    <template #heading>{{ $t('mobileDevelopment') }}</template>
     Android, Kotlin, React Native
   </ContentItem>
 
@@ -58,7 +58,7 @@ import CloudIcon from './icons/IconCloud.vue'
     <template #icon>
       <DatabaseIcon />
     </template>
-    <template #heading>Tietokannat</template>
+    <template #heading>{{ $t('databases') }}</template>
     PostgreSQL, MySQL, Firestore
   </ContentItem>
 
@@ -66,7 +66,7 @@ import CloudIcon from './icons/IconCloud.vue'
     <template #icon>
       <DockerIcon />
     </template>
-    <template #heading>Kontit</template>
+    <template #heading>{{ $t('docks') }}</template>
     Docker
   </ContentItem>
 
@@ -74,7 +74,7 @@ import CloudIcon from './icons/IconCloud.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Versionhallinta ja dokumentaatio</template>
+    <template #heading>{{ $t('versionControl') }}</template>
    GitLab, GitHub, Markdown, UML, ERD, SD
   </ContentItem>
 
@@ -82,7 +82,7 @@ import CloudIcon from './icons/IconCloud.vue'
     <template #icon>
       <TestingIcon />
     </template>
-    <template #heading>Testaus ja automaatio</template>
+    <template #heading>{{ $t('testingAndAutomation') }}</template>
     Robot Framework, Postman, CI/CD, GitHub Actions
   </ContentItem>
 
@@ -90,7 +90,7 @@ import CloudIcon from './icons/IconCloud.vue'
     <template #icon>
       <MediaIcon />
     </template>
-    <template #heading>Media, muotoilu ja suunnittelu ( UI/UX )</template>
+    <template #heading>{{ $t('mediaCreation') }}</template>
     Blender, Adobe, Corel, Magix, Audacity, OBS, Miro, LucidChart, Figma
   </ContentItem>
 
@@ -98,7 +98,7 @@ import CloudIcon from './icons/IconCloud.vue'
     <template #icon>
       <GameIcon />
     </template>
-    <template #heading>Pelikehitys</template>
+    <template #heading>{{ $t('gameDevelopment') }}</template>
     Unreal Engine
   </ContentItem>
 
@@ -106,7 +106,7 @@ import CloudIcon from './icons/IconCloud.vue'
     <template #icon>
       <CloudIcon />
     </template>
-    <template #heading>Pilvipalvelut</template>
+    <template #heading>{{ $t('cloudServices') }}</template>
     Render, Firebase, AWS, Azure
   </ContentItem>
 

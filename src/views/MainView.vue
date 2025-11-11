@@ -1,21 +1,26 @@
-<script>
+<script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import ContentItem from '../components/ContentItem.vue'
-import LinkedinIcon from '../components/icons/IconLinkedin.vue'
-import AndroidIcon from '../components/icons/IconAndroid.vue'
-import MindsetIcon from '../components/icons/IconMindset.vue'
+import ChangeLocale from '../components/ChangeLocale.vue'
 </script>
 
 <template>
+  
+  <div class="topleft">
+    <ChangeLocale />
+  </div>
+  
     <header>
       <div class="wrapper">
           <img alt="Rebecca Soisenniemi" class="logo" src="@/assets/repic.png" width="220" />
-          <h1 class="title">Rebecca Soisenniemi</h1>
+          <div class="main"><RouterLink to="who"><h1 class="title">Rebecca Soisenniemi</h1></RouterLink></div>
+
+          <h1 class="secondtitle">{{ $t('degree') }} </h1>
+          <h1 class="secondtitle">{{ $t('worktitle') }}</h1>
           
           <nav>
-              <RouterLink to="#education">Koulutus</RouterLink>
-              <RouterLink to="#skills">Osaaminen</RouterLink>
-              <RouterLink to="#projects">Projektit</RouterLink>
+              <RouterLink to="work">{{ $t('career') }}</RouterLink>
+              <RouterLink to="skills">{{ $t('skills') }}</RouterLink>
+              <RouterLink to="projects">{{ $t('projects') }}</RouterLink>
           </nav>
 
           <div class="contact">
@@ -32,6 +37,23 @@ import MindsetIcon from '../components/icons/IconMindset.vue'
 
 <style scoped>
 
+.topleft {
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  z-index: 20;
+  background-color: rgb(30, 30, 30);
+  padding: 0.5rem 2.3rem 2rem 1rem;
+  border-radius: 0rem 0rem 6rem 0rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.topleft:hover {
+  background-color: rgb(36, 36, 36);
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -47,7 +69,7 @@ header {
 
 .logo {
   display: block;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0rem;
   border-radius: 0 50% 0% 23%;
   border: 2px solid var(--color-border);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -57,6 +79,13 @@ header {
   font-size: 2rem;
   text-align: center;
   margin-top: 2rem;
+}
+
+.secondtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 nav {
@@ -69,14 +98,14 @@ nav {
   margin-top: 1rem;
 }
 
-nav, .contact, .title {
+nav, .contact, .title, .secondtitle, .main {
   display: flex;
   justify-content: center;  
   align-items: center;      
   width: 100%;        
 }
 
-nav a {
+nav a{
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
@@ -86,8 +115,12 @@ nav a:first-of-type {
   border: 0;
 }
 
-nav a:hover {
+nav a:hover{
   background-color: hsla(160, 77%, 26%, 0.2);
+}
+
+.main a:hover{
+  color: hsla(163, 100%, 46%, 0.426);
 }
 
 .tiny {
@@ -124,6 +157,17 @@ nav a:hover {
   nav {
     font-size: 1.3rem;
   }
+}
+
+
+@media (max-width: 1023px) {
+
+  .topleft {
+    position: absolute;
+    z-index: 20;
+    opacity: 0.7;
+  }
+
 }
 
 </style>
