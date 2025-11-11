@@ -5,7 +5,7 @@
     "date": "Q3-Q4/2025",
     "tech": "Unity, Figma, Git",
     "agency": "Psyche's Royale Gaming ry",
-    "bgimage": "../assets/jobimages/job-1.png"
+    "bgimage": "/jobimages/job-1.png"
   },
   {
     "id":"job-2",
@@ -13,7 +13,7 @@
     "date": "Q4/2025-Q1/2026",
     "tech": "CI/CD, Git, Java",
     "agency": "Koodit ja Koneet Oy",
-    "bgimage": "../assets/jobimages/job-2.png"
+    "bgimage": "/jobimages/job-2.png"
   }
 
 ]
